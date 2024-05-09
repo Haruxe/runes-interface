@@ -24,6 +24,9 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+    background-image: repeating-linear-gradient(45deg, #1a1a1e 0, #1a1a1e 2.5px, transparent 0, transparent 50%);
+background-size: 11px 11px;
+background-color: #0f0f28;
 }
 
 @layer utilities {
